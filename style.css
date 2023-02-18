@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;  
+    font-size:large;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+
+.header-content{
+    width: 100%;
+    height: 100%;
+    background-color: #4D393B;
+    display: flex;
+    justify-content: start;
+   
+}
+
+h1{
+    padding-left: 60px;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+
+
+#img{
+    padding: 0;
+    margin: 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.body-website{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-website::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('./alcoholic-beverages-ge14db9898_1920.jpg');
+    background-size: cover;
+    /* opacity: 0.85; */
+    z-index: -10;
+    background-attachment: fixed;
+}
+
+.transparent {
+    position: relative;
+    display: flex;
+    background-color: rgba(1, 1, 1, 0.65);
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    flex: 0 1 auto;
+}
+
+#homepageimg{
+    margin: 0;
+    padding: 0;
+    height: 71.3rem;
+    width: 100%;
+}
+
+
+.infobox1{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-infobox1{
+    margin: 0;
+    font-size: large;
+    font-weight:bold;
+}
+
+
+.rodapé{
+    background-color: #4D393B;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: start;
+    display: flex;
+}
+
+
+.infobox2{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
